@@ -25,11 +25,11 @@ module.exports = {
         repo: 'zfuns/vuepress-deploy',
 
         nav: [{
-                text: 'Start',
+                text: '开始',
                 link: '/docs/',
             },
             {
-                text: 'Admin',
+                text: '管理',
                 link: '/admin',
             },
             {
