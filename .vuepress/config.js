@@ -24,18 +24,10 @@ module.exports = {
         docsDir: 'docs',
         repo: 'zfuns/vuepress-deploy',
 
-        nav: [{
-                text: '开始',
-                link: '/docs/',
-            },
-            {
-                text: '管理',
-                link: '/admin',
-            },
-            {
-                text: 'NetlifyCMS Config Help',
-                link: '/docs/netlifycms-configuration.html',
-            }
+        nav: [
+            { text: '开始', link: '/docs/' },
+            { text: '管理', link: '/admin' },
+            { text: '关于', link: '/docs/aboot.html' }
 
         ]
 
