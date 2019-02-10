@@ -22,6 +22,8 @@ module.exports = {
     serviceWorker: true,
     themeConfig: {
         docsDir: 'docs',
+        search: true,
+        searchMaxSuggestions: 10,
         repo: 'zfuns/vuepress-deploy',
 
         nav: [
