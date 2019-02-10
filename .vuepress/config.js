@@ -1,16 +1,16 @@
 module.exports = {
-    title: "VuePress Deploy",
+    title: "Blog",
     locales: {
         '/': {
             lang: 'de-DE',
-            title: 'VuePress Deploy',
-            description: 'Vuepress with Netlify Deploy Button'
+            title: 'FUNS',
+            description: 'funs.ml'
         }
     },
     head: [
         ['link', { rel: 'icon', href: `/logo.png` }],
         ['link', { rel: 'manifest', href: '/manifest.json' }],
-        ['link', { rel: 'canonical', href: 'https://vuepress-deploy.netlify.com' }],
+        ['link', { rel: 'canonical', href: 'https://vuez.netlify.com' }],
         ['meta', { name: 'theme-color', content: '#3eaf7c' }],
         ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
         ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
@@ -22,7 +22,7 @@ module.exports = {
     serviceWorker: true,
     themeConfig: {
         docsDir: 'docs',
-        repo: 'capriosa/vuepress-deploy',
+        repo: 'zfuns/vuepress-deploy',
 
         nav: [{
                 text: 'Start',
